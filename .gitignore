@@ -2,5 +2,5 @@
 **/CMakeFiles
 **/cmake_install.cmake
 **/Makefile
-dubin
+libdubin.a
 external
