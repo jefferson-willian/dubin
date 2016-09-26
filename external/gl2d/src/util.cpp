@@ -1,4 +1,4 @@
-#include "gl2d/include/util.h"
+#include "gl2d/util.h"
 
 namespace gl2d {
 namespace util {

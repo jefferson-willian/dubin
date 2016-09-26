@@ -1,7 +1,7 @@
-#include "gl2d/include/circle.h"
-#include "gl2d/include/location.h"
-#include "gl2d/include/point.h"
-#include "gl2d/include/vector.h"
+#include "gl2d/circle.h"
+#include "gl2d/location.h"
+#include "gl2d/point.h"
+#include "gl2d/vector.h"
 #include "gtest/gtest.h"
 
 namespace gl2d {

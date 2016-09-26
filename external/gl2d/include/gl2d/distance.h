@@ -1,7 +1,7 @@
 #ifndef GL2D_INCLUDE_DISTANCE_H_
 #define GL2D_INCLUDE_DISTANCE_H_
 
-#include "gl2d/include/point.h"
+#include "gl2d/point.h"
 
 namespace gl2d {
 

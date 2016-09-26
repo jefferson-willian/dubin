@@ -1,4 +1,4 @@
-#include "gl2d/include/line_segment.h"
+#include "gl2d/line_segment.h"
 #include "gtest/gtest.h"
 
 namespace gl2d {

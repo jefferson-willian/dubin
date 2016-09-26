@@ -1,6 +1,6 @@
-#include "gl2d/include/arc.h"
+#include "gl2d/arc.h"
 
-#include "gl2d/include/point.h"
+#include "gl2d/point.h"
 
 namespace gl2d {
 

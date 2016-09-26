@@ -1,9 +1,9 @@
 #ifndef GL2D_INCLUDE_LINE_SEGMENT_H_
 #define GL2D_INCLUDE_LINE_SEGMENT_H_
 
-#include "gl2d/include/point.h"
-#include "gl2d/include/radians.h"
-#include "gl2d/include/vector.h"
+#include "gl2d/point.h"
+#include "gl2d/radians.h"
+#include "gl2d/vector.h"
 #include "gtest/gtest.h"
 
 namespace gl2d {

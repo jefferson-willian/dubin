@@ -1,7 +1,7 @@
-#include "gl2d/include/distance.h"
+#include "gl2d/distance.h"
 
 #include <cmath>
-#include "gl2d/include/point.h"
+#include "gl2d/point.h"
 
 namespace gl2d {
 
