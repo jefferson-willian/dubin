@@ -1,9 +1,9 @@
-#include "gl2d/include/line_segment.h"
+#include "gl2d/line_segment.h"
 
-#include "gl2d/include/distance.h"
-#include "gl2d/include/point.h"
-#include "gl2d/include/radians.h"
-#include "gl2d/include/vector.h"
+#include "gl2d/distance.h"
+#include "gl2d/point.h"
+#include "gl2d/radians.h"
+#include "gl2d/vector.h"
 
 namespace gl2d {
 

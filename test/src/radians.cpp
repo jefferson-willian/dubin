@@ -1,4 +1,4 @@
-#include "gl2d/include/radians.h"
+#include "gl2d/radians.h"
 #include "gtest/gtest.h"
 
 namespace gl2d {

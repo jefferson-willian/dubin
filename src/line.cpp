@@ -1,8 +1,8 @@
-#include "gl2d/include/line.h"
+#include "gl2d/line.h"
 
-#include "gl2d/include/point.h"
-#include "gl2d/include/radians.h"
-#include "gl2d/include/vector.h"
+#include "gl2d/point.h"
+#include "gl2d/radians.h"
+#include "gl2d/vector.h"
 
 namespace gl2d {
 

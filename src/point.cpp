@@ -1,7 +1,7 @@
-#include "gl2d/include/point.h"
+#include "gl2d/point.h"
 
-#include "gl2d/include/util.h"
-#include "gl2d/include/vector.h"
+#include "gl2d/util.h"
+#include "gl2d/vector.h"
 
 namespace gl2d {
 

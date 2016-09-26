@@ -1,8 +1,8 @@
 #ifndef GL2D_INCLUDE_ARC_H_
 #define GL2D_INCLUDE_ARC_H_
 
-#include "gl2d/include/circle.h"
-#include "gl2d/include/radians.h"
+#include "gl2d/circle.h"
+#include "gl2d/radians.h"
 
 #include "gtest/gtest.h"
 

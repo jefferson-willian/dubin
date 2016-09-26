@@ -1,11 +1,11 @@
-#include "gl2d/include/tangent.h"
+#include "gl2d/tangent.h"
 
 #include <vector>
 
-#include "gl2d/include/circle.h"
-#include "gl2d/include/distance.h"
-#include "gl2d/include/line_segment.h"
-#include "gl2d/include/point.h"
+#include "gl2d/circle.h"
+#include "gl2d/distance.h"
+#include "gl2d/line_segment.h"
+#include "gl2d/point.h"
 
 namespace gl2d {
 
