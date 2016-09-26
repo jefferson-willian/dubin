@@ -1,9 +1,9 @@
 #ifndef DUBIN_INCLUDE_DUBIN_H_
 #define DUBIN_INCLUDE_DUBIN_H_
 
-#include "gl2d/include/arc.h"
-#include "gl2d/include/line_segment.h"
-#include "gl2d/include/vector.h"
+#include "gl2d/arc.h"
+#include "gl2d/line_segment.h"
+#include "gl2d/vector.h"
 
 namespace dubin {
 
