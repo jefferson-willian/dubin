@@ -25,6 +25,11 @@ class Path {
   bool CSC() const { return is_csc_; }
   bool CCC() const { return !is_csc_; }
 
+  const gl2d::Arc& ArcOut() const { return out_; }
+  const gl2d::Arc& ArcIn() const { return in_; }
+  const gl2d::Arc& ArcMid() const { return mid_arc_; }
+  const gl2d::LineSegment& LineMid() const { return mid_line_; }
+
   static std::vector<Path> GetAllPaths(const gl2d::Point& a,
       const gl2d::Vector& d1, const gl2d::Point& b, const gl2d::Vector& d2,
       double curvature);
