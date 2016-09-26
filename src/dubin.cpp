@@ -1,4 +1,4 @@
-#include "dubin/include/dubin.h"
+#include "dubin/dubin.h"
 
 #include "gl2d/arc.h"
 #include "gl2d/circle.h"
