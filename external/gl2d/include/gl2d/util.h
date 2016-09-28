@@ -4,7 +4,7 @@
 namespace gl2d {
 namespace util {
 
-#define EPS 1e-10
+#define GL2D_EPS 1e-10
 
 // Compare two doubles with 1e-10 decimal precision.
 int cmpD(double a, double b);
