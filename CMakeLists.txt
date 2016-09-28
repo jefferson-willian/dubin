@@ -11,11 +11,8 @@ include_directories(include external/gl2d/include)
 #However, the file(GLOB...) allows for wildcard additions:
 file(GLOB SOURCES "src/*.cpp")
 
-# Directories to link libraries.
-link_directories(external/gl2d)
-
 #Generate the static library from the sources
 add_library(dubin ${SOURCES})
 
 # Link static libraries.
-target_link_libraries(dubin gl2d)
+target_link_libraries(dubin)
