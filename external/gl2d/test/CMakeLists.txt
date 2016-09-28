@@ -12,7 +12,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 include_directories(external/googletest/googletest/include ../include)
 
 # Directories to link libraries.
-link_directories(external/googletest/googletest ../)
+link_directories(../)
+
+# Compile gtest.
+add_subdirectory(external/googletest/googletest)
 
 # Executable.
 add_executable(unittest ${SOURCES})
