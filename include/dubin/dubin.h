@@ -5,6 +5,8 @@
 #include "gl2d/line_segment.h"
 #include "gl2d/vector.h"
 
+#include <vector>
+
 namespace dubin {
 
 class Path {
