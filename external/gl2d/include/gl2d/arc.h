@@ -4,7 +4,9 @@
 #include "gl2d/circle.h"
 #include "gl2d/radians.h"
 
+#ifdef _UNIT_TESTING_
 #include "gtest/gtest.h"
+#endif
 
 namespace gl2d {
 
@@ -28,8 +30,10 @@ class Arc : public Circle {
 
   void Complement();
 
+#ifdef _UNIT_TESTING_
   // Friend test classes.
   friend class ArcTest;
+#endif
 };
 
 }  // namespace gl2d

@@ -9,7 +9,7 @@ file(GLOB SOURCES "src/*.cpp")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 # Include directories.
-include_directories(include test/external/googletest/googletest/include)
+include_directories(include)
 
 # Directories to link libraries.
 link_directories()

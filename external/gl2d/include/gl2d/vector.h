@@ -3,7 +3,10 @@
 
 #include "gl2d/point.h"
 #include "gl2d/radians.h"
+
+#ifdef _UNIT_TESTING_
 #include "gtest/gtest.h"
+#endif
 
 namespace gl2d {
 
@@ -74,6 +77,7 @@ class Vector {
   static const Vector i;
   static const Vector j;
 
+#ifdef _UNIT_TESTING_
   // Friend test classes.
   friend class VectorTest;
   FRIEND_TEST(VectorTest, Constructor);
@@ -85,6 +89,7 @@ class Vector {
   FRIEND_TEST(VectorTest, ScalarProduct);
   FRIEND_TEST(VectorTest, ScalarDivision);
   FRIEND_TEST(VectorTest, Canonical);
+#endif
 };
 
 }  // namespace gl2d

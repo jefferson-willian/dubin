@@ -1,9 +1,11 @@
 #ifndef GL2D_INCLUDE_RADIANS_H_
 #define GL2D_INCLUDE_RADIANS_H_
 
-#include "gtest/gtest.h"
-
 #include "gl2d/util.h"
+
+#ifdef _UNIT_TESTING_
+#include "gtest/gtest.h"
+#endif
 
 namespace gl2d {
 
@@ -57,8 +59,10 @@ class Radians {
   static const Radians PI;
   static const Radians TWOPI;
 
+#ifdef _UNIT_TESTING_
   // Friend test classes.
   friend class RadiansTest;
+#endif
 };
 
 }  // namespace gl2d
