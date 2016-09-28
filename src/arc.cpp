@@ -2,6 +2,8 @@
 
 #include "gl2d/point.h"
 
+#include <algorithm>
+
 namespace gl2d {
 
 Arc::Arc(const Circle& circle, Radians start, Radians end) : Circle(circle),

@@ -1,7 +1,9 @@
 #ifndef GL2D_INCLUDE_POINT_H_
 #define GL2D_INCLUDE_POINT_H_
 
+#ifdef _UNIT_TESTING_
 #include "gtest/gtest.h"
+#endif
 
 namespace gl2d {
 

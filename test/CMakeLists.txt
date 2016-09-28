@@ -19,3 +19,5 @@ add_executable(unittest ${SOURCES})
 
 # Link static libraries.
 target_link_libraries(unittest gtest pthread gl2d)
+
+target_compile_definitions(unittest PRIVATE _UNIT_TESTING_)

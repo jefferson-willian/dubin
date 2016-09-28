@@ -4,7 +4,10 @@
 #include "gl2d/location.h"
 #include "gl2d/point.h"
 #include "gl2d/vector.h"
+
+#ifdef _UNIT_TESTING_
 #include "gtest/gtest.h"
+#endif
 
 namespace gl2d {
 
@@ -48,8 +51,10 @@ class Circle {
   bool operator==(const Circle& rhs) const;
   bool operator!=(const Circle& rhs) const;
 
+#ifdef _UNIT_TESTING_
   // Friend test classes.
   friend class CircleTest;
+#endif
 };
 
 }  // namespace gl2d

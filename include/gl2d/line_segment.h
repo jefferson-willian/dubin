@@ -4,7 +4,10 @@
 #include "gl2d/point.h"
 #include "gl2d/radians.h"
 #include "gl2d/vector.h"
+
+#ifdef _UNIT_TESTING_
 #include "gtest/gtest.h"
+#endif
 
 namespace gl2d {
 
@@ -50,7 +53,9 @@ class LineSegment {
   bool operator==(const LineSegment& rhs) const;
   bool operator!=(const LineSegment& rhs) const;
 
+#ifdef _UNIT_TESTING_
   friend class LineSegmentTest;
+#endif
 };
 
 }  // namespace gl2d
